@@ -24,15 +24,18 @@ namespace IterationStatements
                 //DONE Then add your variable to "numbers"
             }
                 while (init < 100) ;
-            //DONE While your variable is less than 100
+                //DONE While your variable is less than 100
 
 
 
-            // Create a while loop
-            // While your variable is less than 200
+                // Create a while loop
+                // While your variable is less than 200
+                while
             {
+                    init < 200, init++;
+                    numbers.Add(init);
                 // Increment your variable by 1
-                // Then add your variable to "numbers"
+                // DONE Then add your variable to "numbers"
             }
 
             Console.WriteLine("Increase:");
@@ -40,7 +43,7 @@ namespace IterationStatements
             // Create a foreach loop
             // Write your variable to the console
 
-            Console.WriteLine("");
+            Console.WriteLine($"{init}");
             Console.WriteLine("Decrease:");
 
             // Create a for loop
